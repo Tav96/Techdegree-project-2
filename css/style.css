@@ -1,0 +1,175 @@
+body{
+	background-color: #f2f2f2;
+}
+ .name{
+ 	font-size: 1.25em;
+
+ }
+
+.name,
+.main-nav li{
+	text-align: center;
+	background: #fff;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	list-style-type: none;
+}
+
+.name a,
+.main-nav a{
+  padding: 10px 15px;
+  display:block; 
+  color: black
+  }
+  {
+  	
+  }
+
+  .main-nav a{
+  	font-size: .95em;
+  	text-transform: uppercase;
+  }
+  .main-nav a:hover{
+  	color: red;
+  }
+
+body{
+	text-align: center;
+
+}
+
+p{
+	font-family: sans-serif;
+	line-height: 1.6em;
+	color: #737373 ;
+}
+
+.main-pic{
+	margin: auto;
+	height: auto;
+	width: 100%;
+	padding-bottom: 15px;
+	padding-top: 15px;
+
+
+}
+
+
+
+.marketing{
+	margin: auto;
+	height: auto;
+	width: 100%;
+	padding-top: 15px;
+		padding-bottom: 15px;
+}
+
+.search-page{
+	margin: auto;
+	height: auto;
+	width: 100%;
+	padding-top: 15px;
+		padding-bottom: 15px;
+}
+
+.travel-app{
+	margin: auto;
+	height: auto;
+	width: 100%;
+	padding-top: 15px;
+		padding-bottom: 15px;
+}
+
+.map{
+	margin: auto;
+height: auto;
+	width: 100%;
+	padding-top: 15px;
+		padding-bottom: 15px;
+}
+
+.photo-gallery{
+	margin: auto;
+	height: auto;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.calculator-image{
+	margin: auto;
+	height: auto;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+
+/* ----- Media Queries ------*/
+
+@media (min-width: 600px ) {
+
+	.main-nav li{
+	float: right;
+	border-right: 1px solid black;
+		}
+	
+	.name{
+		float: left;
+		font-size: 25px;
+	}
+	
+	.main-nav li,
+	.name {
+			margin-bottom: 40px;
+	}
+		
+		.main-pic{
+			float: right;
+			clear: both;
+			height: 300px;
+			width:400px;
+			margin-top: 30px;
+		}
+		
+	
+
+		.main-content{
+		
+		 margin-bottom: 50px;
+		 border-bottom: 1px solid grey;
+		}
+
+		#main-portfolio{
+			text-align: center;
+		}
+
+		.marketing-content,
+		.search-page-content,
+		.travel-app-content,
+		.maps-content,
+		.calculator-content,
+		.photo-gallery-content {
+			width: 30%;
+			float: left;
+			margin: 20px;
+		}
+		
+		#portfolio{ 
+		clear: both;
+		 }
+
+		p{
+			float: left;
+		}
+
+		.clearfix::after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+}
+
+{}
