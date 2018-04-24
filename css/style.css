@@ -204,8 +204,8 @@ li{
 		.search-page-content,
 		.travel-app-content,
 		.maps-content,
-		.calculator-content,
-		.photo-gallery-content {
+		.calculator-cocntent,
+		.photo-gallery-ontent {
 			width: 45%;
 			float: left;
 			margin: 20px;
@@ -314,12 +314,7 @@ li{
 			text-align: center;
 		}
 
-		.marketing-content,
-		.search-page-content,
-		.travel-app-content,
-		.maps-content,
-		.calculator-content,
-		.photo-gallery-content {
+		.content {
 			width: 30%;
 			float: left;
 			margin: 20px;
