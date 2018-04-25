@@ -189,13 +189,13 @@ li{
 		
 		.marketing-content,
 		.search-page-content,
-		.travel-app,
+		.travel-app-content,
 		.maps-content,
 		.photo-gallery-content,
 		.calculator-content {
 			display: inline-block;
+			width: 30.3%;
 			
-			margin-right: 10px;
 		}
 
 
@@ -302,26 +302,15 @@ li{
 		
 		.marketing-content,
 		.search-page-content,
-		.travel-app,
+		.travel-app-content,
 		.maps-content,
 		.photo-gallery-content,
 		.calculator-content {
 			display: inline-block;
+			width: 30.3%;
 			
-			
 		}
-		
-		.marketing-content{
-			width: 30.3%;
-		}
-
-		.search-page-content{
-			width: 30.3%;
-		}
-
-		.travel-app{
-			width: 30.3%;
-		}
+	
 
 		.main-content p{
 			font-size: 20px;
