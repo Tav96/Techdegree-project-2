@@ -187,7 +187,18 @@ li{
 			
 		}
 		
-		
+		.marketing-content,
+		.search-page-content,
+		.travel-app,
+		.maps-content,
+		.photo-gallery-content,
+		.calculator-content {
+			display: inline-block;
+			width: 45%;
+			margin-right: 10px;
+		}
+
+
 		
 
 		.main-content p{
@@ -206,11 +217,7 @@ li{
 			text-align: center;
 		}
 
-		.content {
-			width: 25%;
-			float: left;
-			margin: 20px;
-		}
+		
 		
 		#portfolio{ 
 		clear: both;
@@ -293,7 +300,11 @@ li{
 		}
 
 		
-		
+		.marketing-content,
+		.search-page-content{
+			display: inline-block;
+			width: 45%;
+		}
 		
 
 		.main-content p{
@@ -312,11 +323,7 @@ li{
 			text-align: center;
 		}
 
-		.content {
-			width: 30%;
-			float: left;
-			margin: 20px;
-		}
+		
 		
 		#portfolio{ 
 		clear: both;
