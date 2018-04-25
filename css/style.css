@@ -269,7 +269,7 @@ li{
 }
 
 
-
+/*Media Query*/
 
 
 @media (min-width: 1024px ) {
@@ -301,9 +301,14 @@ li{
 
 		
 		.marketing-content,
-		.search-page-content{
+		.search-page-content,
+		.travel-app,
+		.maps-content,
+		.photo-gallery-content,
+		.calculator-content {
 			display: inline-block;
-			width: 45%;
+			width: 33.3%;
+			
 		}
 		
 
