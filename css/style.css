@@ -167,6 +167,10 @@ li{
 	display: inline-block;
 	border-right: 1px solid black;
 		}
+
+		.main-content{
+			display: inline-block;
+		}
 	
 	.name{
 		
