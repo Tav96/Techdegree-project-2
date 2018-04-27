@@ -168,8 +168,11 @@ li{
 	border-right: 1px solid black;
 		}
 
-		.main-content{
-			display: inline-block;
+		
+		.intro-paragraph,
+		.main-pic{
+			display: inline;
+			margin-left: 50px;
 		}
 	
 	.name{
