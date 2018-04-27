@@ -211,6 +211,7 @@ li{
 			display: inline-block;
 			width: 45.5%;
 			margin: 10px;
+			vertical-align: top;
 			
 		}
 
@@ -325,7 +326,7 @@ li{
 			display: inline-block;
 			width: 31.5%;
 			margin-right: 10px;
-			
+			vertical-align: top;
 		}
 	
 
