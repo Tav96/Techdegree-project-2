@@ -129,6 +129,7 @@ li{
 
 
 #mobile-footer li{
+	display: inline-block;
 	text-align: center;
 	margin-top: 6px;
 	margin-bottom: 6px;
@@ -153,6 +154,11 @@ li{
   }
   #mobile-footer a:hover{
   	color: red;
+  }
+
+  .footer-name{
+  	text-transform: uppercase;
+  	padding-right: 110px;
   }
 
 
