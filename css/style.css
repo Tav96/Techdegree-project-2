@@ -258,7 +258,7 @@ li{
 			text-align: center;
 		}
 
-		#main-footer li{
+		#main-footer{
 			display: inline;
 		}
 
@@ -360,6 +360,10 @@ li{
 		
 		#portfolio{ 
 		clear: both;
+		 }
+
+		 #main-footer{
+		 	display: inline;
 		 }
 
 		
