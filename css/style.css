@@ -129,7 +129,7 @@ li{
 
 
 #mobile-footer li{
-	display: inline-block;
+	display: inline;
 	text-align: center;
 	margin-top: 6px;
 	margin-bottom: 6px;
@@ -256,6 +256,10 @@ li{
 
 		.main-footer{
 			text-align: center;
+		}
+
+		#main-footer li{
+			display: inline;
 		}
 
 		.mobile-footer{
