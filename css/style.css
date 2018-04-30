@@ -254,12 +254,13 @@ li{
 			clear: both;
 		}
 
-		.footer{
+		#footer{
 			text-align: center;
 		}
 
-		.footer{
+		#footer{
 			display: inline;
+
 		}
 
 		.mobile-footer{
@@ -292,6 +293,9 @@ li{
 	display: none;
 }
 
+.contact-me{
+	margin-bottom: 20px;
+}
 
 }
 
