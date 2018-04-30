@@ -158,7 +158,11 @@ li{
 
   .footer-name{
   	text-transform: uppercase;
-  	padding-right: 110px;
+  	padding-right: 30px;
+  }
+
+  .name-footer{
+  	display: none;
   }
 
 
@@ -222,7 +226,9 @@ li{
 		}
 
 
-		
+		.name-footer{
+			display: inline;
+		}
 
 		.main-content p{
 			font-size: 20px;
@@ -260,6 +266,7 @@ li{
 
 		#footer{
 			display: inline;
+			float: right;
 
 		}
 
@@ -293,9 +300,15 @@ li{
 	display: none;
 }
 
-.contact-me{
-	margin-bottom: 20px;
+
+.final-footer{
+	float: right;
 }
+
+.name-footer{
+	float: left;
+}
+
 
 }
 
